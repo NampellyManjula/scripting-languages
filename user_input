@@ -1,0 +1,13 @@
+
+class Student
+  def get
+    puts "what is u r name:"
+    name = gets
+    puts " ur roll no"
+    roll_no=gets
+    puts"my name is" + name
+    puts "roll no is" + roll_no
+  end
+end
+obj=Student.new
+obj.get

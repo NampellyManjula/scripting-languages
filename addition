@@ -1,0 +1,12 @@
+class Sample
+  def add
+    puts"enter a:"
+    a = gets.chomp.to_i
+    puts "enter b:"
+    b = gets.chomp.to_i
+    c = a+b
+    puts"sum is= #{c}"
+  end
+end
+obj = Sample.new
+obj.add
